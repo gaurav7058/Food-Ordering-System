@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <aside>
+            <div class="sidebar">
+                <div class="logo">
+                    <img src="./img/logo.png" alt="Restaurant Logo">
+                    <h1>Your Restaurant Menu</h1>
+                    <p>Your Slogan</p>
+                </div>
+                <div class="quick-links">
+                    <ol>
+                        <p>quick links</p>
+                        <li>Home</li>
+                        <li>Your Orders</li>
+                        <li>Wallet</li>
+                        <li>Profile</li>
+                        <li>Logout</li>
+                    </ol>
+                </div>
+                <div class="more-about-us">
+                    <ol>
+                        <p>more about us</p>
+                        <li>Our Blog</li>
+                        <li>Upcoming Dishes</li>
+                        <li>Our Story</li>
+                        <li>Social Media Links</li>
+                    </ol>
+                </div>
+            </div>
+        </aside>
+        <div class="main-content">
+            <div class="header">
+                <input type="text" placeholder="Search Food Item">
+                <button class="signup-btn">Signup</button>
+                <button class="login-btn">Login</button>
+                <img src="./img/logo.png" alt="logo">
+            </div>
+            <div class="menu">
+                <h2>Menu</h2>
+                <div class="menu-grid" id="menu-grid">
+                    <!-- Menu items will be dynamically inserted here -->
+                </div>
+            </div>
+
+            <div id="order-screen" class="screen hidden">
+                <div class="order-status">
+                    <h2>Processing Your Order...</h2>
+                    <p id="order-message">Initializing...</p>
+                </div>
+            </div>
+        </div>
+    
+        
+           <!-- Sidebar -->
+            
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

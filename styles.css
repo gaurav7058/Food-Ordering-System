@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* color: #ff4c4c; */
+.container{
+    display: flex;
+}
+body {
+    font-family: Arial, sans-serif;
+     background-color: #1a1a1a; 
+     color: white; 
+}
+.main-content{
+    flex: 1;
+}
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #2c2c2c;
+    height: 62px;
+}
+.header input{
+    width: 50%;
+    padding: 7px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #2c2c2c;
+    color: white;
+    text-align: center;
+}
+.header img{
+    width: 60px;
+    border-radius: 26px;
+}
+.signup-btn, .login-btn {
+    background-color: red;
+    color: white;
+    padding: 12px 24px;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin-right: 140px;
+}
+
+
+.sidebar {
+    /* margin-top: -80px; */
+    width: 415.5px;
+    background-color: black;
+    height: 750px;
+    padding: 20px;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid white;
+}
+
+.logo img {
+    width: 200px;
+    border-radius: 50%;
+}
+.logo p{
+    color: red;
+    margin-bottom: 17px;
+    margin-top: 12px;
+}
+.quick-links, .more-about-us {
+    /* list-style-type: none; */
+    margin-top: 20px;
+}
+.quick-links p,.more-about-us p{
+    text-align: center;
+    font-size: 18px;
+}
+.quick-links li{
+    cursor: pointer;
+    margin: 15px 0;
+    margin-left: 28px;
+
+}
+ .more-about-us li {
+    cursor: pointer;
+    margin: 15px 0;
+    margin-left: 28px;
+}
+
+.quick-links li:hover, .more-about-us li:hover {
+    color: #ff4c4c;
+}
+/*  */
+.menu {
+    margin-top: 20px;
+}
+
+.menu h2 {
+    margin-bottom: 20px;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.menu-item {
+    background-color: #333;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.menu-item img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.add-to-cart-btn {
+    padding: 10px;
+    border: none;
+    border-radius: 50%;
+    background-color: #ff4c4c;
+    color: white;
+    cursor: pointer;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #ff3030;
+}
+
+/* Order Processing Screen Styling */
+.screen {
+    display: none;
+}
+
+.screen.active {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+.order-status {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.order-status h2 {
+    margin-bottom: 20px;
+}
+
+.order-status p {
+    font-size: 1.2em;
+}
+
